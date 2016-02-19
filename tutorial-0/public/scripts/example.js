@@ -1,4 +1,3 @@
-
 var MyComponent = React.createClass({
     getInitialState: function(){
         return {
@@ -11,7 +10,6 @@ var MyComponent = React.createClass({
         )
     }
 });
-
 
 ReactDOM.render(
   React.createElement(MyComponent, null),

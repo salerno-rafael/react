@@ -1,5 +1,4 @@
-
-var Comment = React.createClass({
+/* var Comment = React.createClass({
   render: function() {
     return (
       <div className="comment">
@@ -10,7 +9,7 @@ var Comment = React.createClass({
       </div>
     );
   }
-});
+}); just for sample */
 
 var Comment = React.createClass({
   rawMarkup: function() {
@@ -40,8 +39,6 @@ var CommentList = React.createClass({
     );
   }
 });
-
-
 
 ReactDOM.render(
   React.createElement(CommentList, null),

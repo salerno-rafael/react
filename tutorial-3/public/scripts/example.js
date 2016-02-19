@@ -23,8 +23,6 @@ var CommentList = React.createClass({
   }
 });
 
-
-
 ReactDOM.render(
   React.createElement(CommentList, null),
   document.getElementById('content')
